@@ -1,7 +1,7 @@
 {
   "name": "@jmaen/react-native-picker-select",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "An extension to react-native-picker-select that adds methods to programmatically open and close the picker on iOS and Android.",
   "author": "Jannik Mänzer",
   "license": "MIT",
   "homepage": "https://github.com/jmaen/react-native-picker-select#readme",
