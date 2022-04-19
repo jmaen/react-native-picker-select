@@ -1,25 +1,9 @@
 {
   "name": "@jmaen/react-native-picker-select",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An extension to react-native-picker-select that adds methods to programmatically open and close the picker on iOS and Android.",
   "author": "Jannik Mänzer",
   "license": "MIT",
-  "homepage": "https://github.com/jmaen/react-native-picker-select#readme",
-  "main": "src/index.js",
-  "dependencies": {
-    "@react-native-picker/picker": "^1.8.3",
-    "lodash.isequal": "^4.5.0"
-},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jmaen/react-native-picker-select.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jmaen/react-native-picker-select/issues"
-  },
   "keywords": [
     "picker",
     "select",
@@ -27,5 +11,21 @@
     "react",
     "react-native",
     "expo"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmaen/react-native-picker-select.git"
+  },
+  "main": "src/index.js",
+  "files": [
+        "index.d.ts",
+        "/src"
+  ],
+  "dependencies": {
+    "@react-native-picker/picker": "^1.8.3",
+    "lodash.isequal": "^4.5.0"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
